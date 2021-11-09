@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+#wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: #0ECBC7;
+  padding: 20px 20px 23px 20px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  padding: 0 25px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+section {
+  overflow: auto;
+  background-color: white;
+  background-color: rgb(236, 54, 50);
+}
+
+aside {
+  background-color: rgb(236, 54, 50);
+  float: left;
+  width: 170px;
+}
+
+aside li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside a {
+  padding: 10px 0 10px 30px;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+article {
+  width: 74%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  float: right;
+  padding: 0 4% 2% 4%;
+  background-color: white;
+}
+
+article h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 32px;
+}
+
+article h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 24px;
+}
+
+article h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18.72px;
+}
+
+.cupimg {
+  width: 100%;
+}
+
+.buy {
+  width: 320px;
+  height: 200px;
+  float: right;
+}
+
+footer {
+  background-color: #0EC8C7;
+  text-align: center;
+  padding: 20px 20px 23px 20px;
+}
+
+footer a {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+}
+
+footer p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+footer li {
+  display: inline;
+  padding: 0 10px;
+}
+
+footer ul {
+  margin: 0;
+}
+
+@media only screen and (max-width:600px) {
+
+  body {
+    background-color: lightgray;
+  }
+
+  #wrap {
+    width: 100%;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  nav li, nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  aside {
+    width: 100%;
+    float: none;
+  }
+
+  aside a {
+    text-align: center;
+  }
+
+  aside li, aside ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  article {
+    padding-top: 20px;
+    width: 92%;
+    float: none;
+  }
+
+  .cupimg {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+
+  .buy {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+
+  footer{
+    text-align: center;
+    width: 92%;
+  }
+
+}
