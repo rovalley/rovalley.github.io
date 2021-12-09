@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="activities.css" rel="stylesheet" type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RK74CBZTK0"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RK74CBZTK0');
+  </script>
+  </head>
+  <body id="home">
+    <div id="wrap">
+
+    <header>
+      <div class="slider-wrapper theme-default">
+          <div id="slider" class="nivoSlider">
+            <img src="football.jpg" data-thumb="football.jpg" alt="football" title="#htmlcaption" />
+            <a href="https://www.nba.com/" target="_blank"><img src="basketball.jpg" data-thumb="basketball.jpg" alt="basketball" title="National Basketball League" /></a>
+              <img src="snowboard.jpg" data-thumb="snowboard.jpg" alt="snowboard" data-transition="slideInLeft" />
+              <img src="surfboard.jpg" data-thumb="surfboard.jpg" alt="" />
+          </div>
+          <div id="htmlcaption" class="nivo-html-caption">
+              National Football League. <a href="https://www.nfl.com/" target="_blank">nfl.com</a>
+          </div>
+      </div>
+    </header>
+
+    <nav>
+      <h1>Activity links</h1>
+      <ul>
+        <li><a href="activities.html">Home page</a></li>
+        <li><a href="football.html">Football</a></li>
+        <li><a href="basketball.html">Basketball</a></li>
+        <li><a href="snowboarding.html">Snowboarding</a></li>
+        <li><a href="surfing.html">Surfing</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h1>Activities Home Page</h1>
+
+      <p>
+        Football is a fun contact sport whether you like to play offense or defense. It is also entertaining
+        to watch and have a favorite team to root for. Basketball is cool to see how individual players
+        change the way the game is played by their own skill. Also the Finals are always entertaining becuasue
+        there is more than one game and anything can happen. Snowboarding has its ups and downs but once you
+        master riding down the slopes, you can hit the ramps and get airborn. It is fun to go with your friends
+        and ride all day long. Riding a wave is exhilarating when its a good one and you can ride it all the
+        way back to shore. Surfing is fun but is very exhausting be prepared when trying to hit the waves. The
+        four activities are entertaining to watch and do. Each take skill and time to master but is worth it.
+      </p>
+
+    </section>
+
+    <footer>
+      <p>
+        Get outside and have fun! © 2021
+        <a href="#">Four exciting activities to do</a>.
+      </p>
+    </footer>
+  </div>
+  <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+  <script type="text/javascript">
+  $(window).load(function() {
+      $('#slider').nivoSlider();
+  });
+  </script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  background-color: #D35400;
+  color: white;
+}
+
+#football {
+  background-color: #B3995D;
+  color: #AA0000;
+}
+
+#surfing {
+  background-color: #ffbf00;
+}
+
+#snowboarding {
+  background-color: lightblue;
+  color: gray;
+}
+
+#basketball {
+  background-color: #1D428A;
+  color: #FFC72C;
+}
+
+#wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+}
+
+header img {
+  width: 100%;
+}
+
+nav {
+  padding: 19px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+}
+
+fieldset {
+  background-color: #ddd;
+  border-radius: 1em;
+}
+
+legend {
+  font-size: 150%;
+  font-family: Georgia, serif;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-size: 130%;
+}
+
+.button1 {
+  background-color: black;
+  color: white;
+  font-size: 130%;
+  text-decoration: none;
+}
+
+.tweet {
+  width: 45%;
+  float:left;
+}
+
+.vid {
+  width: 45%;
+  float:left;
+}
+
+.righttxt {
+  width: 45%;
+  float:right;
+}
+
+.right {
+  width: 45%;
+  float:right;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  padding: 20px 20px 23px 20px;
+  color: black;
+}
+
+footer a {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+}
+
+footer p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+footer li {
+  display: inline;
+  padding: 0 10px;
+}
+
+footer ul {
+  margin: 0;
+}
+
+.embed-container
+{ position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed
+{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
